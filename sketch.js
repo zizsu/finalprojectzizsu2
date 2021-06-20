@@ -20,11 +20,11 @@ function draw() {
     let x1 = random(width);
     let y1 = random(height);
 
-    let x2 = round(x1 + random(-40, 40));
-    let y2 = round(y1 + random(-40, 40));
+    let x2 = round(x1 + random(-10, 10));
+    let y2 = round(y1 + random(-10, 10));
 
-    let w = width / 20;
-    let h = height / 10;
+    let w = width / 5;
+    let h = height / 5;
 
     set(x2, y2, get(x1, y1, w, h));
   
